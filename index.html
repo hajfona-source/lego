@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lego — мебель на заказ в Кокшетау</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--o:#D9582B;--bg:#FDF3EE;--card:#fff;--tx:#3a2418;--mu:#7a6358;--ln:#f0d9cd;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d1410;--card:#2a1d17;--tx:#f7e8df;--mu:#c2a999;--ln:#4a3329}}
+:root[data-theme="dark"]{--bg:#1d1410;--card:#2a1d17;--tx:#f7e8df;--mu:#c2a999;--ln:#4a3329}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:Montserrat,system-ui,sans-serif;background:var(--bg);color:var(--tx);line-height:1.55}
+.w{max-width:960px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--ln);z-index:5}
+header .w{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.08em;color:var(--o);font-size:20px;text-decoration:none}
+.btn{display:inline-block;background:var(--o);color:#fff;border:0;border-radius:999px;padding:12px 24px;font:600 15px Montserrat,sans-serif;text-decoration:none;cursor:pointer}
+.btn.s{padding:8px 18px;font-size:13px}
+.btn.o{background:transparent;color:var(--o);border:2px solid var(--o)}
+.hero{padding:56px 0 48px;text-align:center}
+.hero .tri{width:84px;margin:0 auto 18px;display:block}
+.hero h1{font-size:clamp(30px,8vw,52px);font-weight:800;line-height:1.1;color:var(--o);letter-spacing:.02em}
+.hero p{margin:16px auto 26px;max-width:520px;color:var(--mu)}
+section{padding:44px 0}
+h2{font-size:clamp(22px,5.5vw,30px);font-weight:800;margin-bottom:6px}
+.sub{color:var(--mu);margin-bottom:26px}
+.steps{display:grid;gap:12px;counter-reset:s}
+.step{background:var(--card);border:1px solid var(--ln);border-radius:18px;padding:18px 18px 18px 74px;position:relative}
+.step::before{counter-increment:s;content:"0" counter(s);position:absolute;left:16px;top:16px;width:42px;height:42px;border-radius:50%;background:var(--o);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.step b{display:block;text-transform:uppercase;font-size:14px;letter-spacing:.02em;margin-bottom:3px}
+.step span{color:var(--mu);font-size:14px}
+.adv{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.adv div{border:2px solid var(--o);border-radius:18px;padding:20px;text-align:center;font-weight:700;text-transform:uppercase;font-size:13px;letter-spacing:.04em;color:var(--o)}
+.adv svg{display:block;margin:0 auto 10px}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:22px;padding:26px}
+form{display:grid;gap:12px;margin-top:18px}
+label{font-size:13px;font-weight:600;display:grid;gap:5px}
+input,select{font:500 16px Montserrat,sans-serif;padding:13px 14px;border:1px solid var(--ln);border-radius:12px;background:var(--bg);color:var(--tx);width:100%}
+.loc{text-align:center}
+footer{padding:26px 0;text-align:center;color:var(--mu);font-size:12px;border-top:1px solid var(--ln)}
+</style>
+</head>
+<body>
+<header><div class="w">
+<a class="logo" href="#top"><svg width="26" height="26" viewBox="0 0 100 100" fill="none" stroke="#D9582B" stroke-width="9"><path d="M50 8 92 90H10M50 36 68 70H40"/></svg>LEGO</a>
+<a class="btn s" href="#order">Записаться</a></div></header>
+
+<main id="top">
+<div class="hero w">
+<svg class="tri" viewBox="0 0 100 100" fill="none" stroke="#D9582B" stroke-width="7"><path d="M50 6 94 92H8M50 34 70 72H38"/></svg>
+<h1>Мебель на заказ</h1>
+<p>Индивидуальный проект с учётом всех ваших пожеланий — от замера до изготовления.</p>
+<a class="btn" href="#order">Вызвать замерщика</a>
+</div>
+
+<section><div class="w">
+<h2>Как сделать заказ</h2>
+<p class="sub">Пять простых шагов</p>
+<div class="steps">
+<div class="step"><b>Согласуем время замера</b><span>Наш специалист приедет в удобное время и выполнит все необходимые замеры</span></div>
+<div class="step"><b>Подготовим индивидуальный проект</b><span>После замера разработаем проект с учётом всех ваших пожеланий</span></div>
+<div class="step"><b>Пригласим вас в наш офис</b><span>Для детального обсуждения проекта и всех его деталей</span></div>
+<div class="step"><b>Обсудим всё до мелочей</b><span>Дизайн, материалы, размеры, фурнитуру и другие важные детали</span></div>
+<div class="step"><b>Приступим к изготовлению</b><span>После согласования всех нюансов начнём воплощать проект в жизнь</span></div>
+</div></div></section>
+
+<section><div class="w">
+<h2>Почему Lego</h2><p class="sub">&nbsp;</p>
+<div class="adv">
+<div><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#D9582B" stroke-width="1.8"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6zM8.5 12l2.5 2.5 4.5-5"/></svg>Индивидуальный подход</div>
+<div><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#D9582B" stroke-width="1.8"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 7 5-3 5 3-1.5-7"/></svg>Качественные материалы</div>
+<div><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#D9582B" stroke-width="1.8"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>Профессиональное изготовление</div>
+<div><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#D9582B" stroke-width="1.8"><path d="M2 12l5-5 4 2 4-2 7 6-6 6-3-2-3 2-5-4zM9 17l2 2"/></svg>Гарантия на работы</div>
+</div></div></section>
+
+<section id="order"><div class="w"><div class="card">
+<h2>Запись на замер</h2>
+<p class="sub">Заполните форму — готовое сообщение откроется в WhatsApp, останется нажать «Отправить». Мы всегда на связи.</p>
+<form id="f">
+<label>Ваше имя<input id="n" placeholder="Например, Айдос" autocomplete="name" required></label>
+<label>Что хотите заказать<select id="t"><option>Кухню</option><option>Шкаф или гардеробную</option><option>Корпусную мебель</option><option>Другое</option></select></label>
+<label>Удобное время замера<input id="d" placeholder="Например, завтра после 15:00"></label>
+<a id="wa" class="btn" style="text-align:center" href="https://wa.me/77715954015" target="_blank" rel="noopener">Написать в WhatsApp</a>
+</form></div></div></section>
+
+<section><div class="w loc">
+<h2>Наш офис на карте</h2>
+<p class="sub">Кокшетау<br>Часы работы: с 9:00 до 18:00</p>
+<a class="btn o" href="https://2gis.kz/kokshetau/geo/70000001103149168?inv_by=bbb66e10f6c64e3ba7340627f1b6ad9f&inv_ts=1794382552" target="_blank" rel="noopener">Открыть в 2ГИС</a>
+</div></section>
+</main>
+<footer>© Lego — мебель на заказ</footer>
+
+<script>
+var wa=document.getElementById('wa'),N=document.getElementById('n'),T=document.getElementById('t'),D=document.getElementById('d');
+function upd(){var n=N.value.trim(),d=D.value.trim();
+var m='Здравствуйте! '+(n?'Меня зовут '+n+'. ':'')+'Хочу заказать: '+T.value.toLowerCase()+'. Прошу вызвать замерщика'+(d?'. Удобное время: '+d:'')+'.';
+wa.href='https://wa.me/77715954015?text='+encodeURIComponent(m);}
+[N,T,D].forEach(function(el){el.addEventListener('input',upd);el.addEventListener('change',upd);});
+wa.addEventListener('click',function(e){upd();if(!N.value.trim()){e.preventDefault();N.focus();}});
+document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();});
+upd();
+</script>
+</body>
+</html>
